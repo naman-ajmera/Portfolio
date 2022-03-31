@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import react from '../assets/react.svg';
 import node from '../assets/nodejs.svg';
 import naman from '../assets/naman.jpg';
