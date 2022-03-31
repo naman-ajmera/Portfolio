@@ -21,12 +21,20 @@ const HomeScreen = () => {
         <Col lg={8}>
           <div className='pt-5 intro'>
             <div className='text'>
-            <p className='hi_name my-0'>Hi, I am Naman</p>
-            <p className='mt-0'>A Software Engineer</p>
-            <p className='muted'>Building Websites, Web apps, proficient in full stack development. Writing articles
-on dev.to sometimes.</p>
+              <p className='hi_name my-0'>Hi, I am Naman</p>
+              <p className='mt-0'>A Software Engineer and Equity Investor</p>
+              <p className='muted'>
+                Building Websites, Web apps, proficient in full stack
+                development. Experienced in Big Data Engineering.
+              </p>
             </div>
-            <img alt='naman' className='naman-image' height={'150px'} width={'150px'} src={naman} />
+            <img
+              alt='naman'
+              className='naman-image'
+              height={'150px'}
+              width={'150px'}
+              src={naman}
+            />
           </div>
         </Col>
         <Col lg={2} />
@@ -38,8 +46,17 @@ on dev.to sometimes.</p>
             <Col sm={0} md={0} lg={2} />
             <Col sm={12} md={12} lg={8}>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href='https://ecommapplication.netlify.app/'>
-                  <img alt='project1' height={'100%'} width={'100%'} src={project1} />
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://ecommapplication.netlify.app/'
+                >
+                  <img
+                    alt='project1'
+                    height={'100%'}
+                    width={'100%'}
+                    src={project1}
+                  />
                 </a>
               </div>
               <div className='mt-3'>
@@ -89,7 +106,7 @@ on dev.to sometimes.</p>
             <svg height={'100px'} width={'100px'}>
               <image height={'100px'} width={'100px'} href={typescript} />
             </svg>
-            <h5 className='skill-name' >TypeScript</h5>
+            <h5 className='skill-name'>TypeScript</h5>
           </div>
           <div className='skill'>
             <svg height={'100px'} width={'100px'}>
