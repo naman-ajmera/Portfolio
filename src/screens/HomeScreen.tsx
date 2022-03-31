@@ -26,7 +26,7 @@ const HomeScreen = () => {
             <p className='muted'>Building Websites, Web apps, proficient in full stack development. Writing articles
 on dev.to sometimes.</p>
             </div>
-            <img className='naman-image' height={'150px'} width={'150px'} src={naman} />
+            <img alt='naman' className='naman-image' height={'150px'} width={'150px'} src={naman} />
           </div>
         </Col>
         <Col lg={2} />
@@ -39,7 +39,7 @@ on dev.to sometimes.</p>
             <Col sm={12} md={12} lg={8}>
               <div>
                 <a target="_blank" rel="noopener noreferrer" href='https://ecommapplication.netlify.app/'>
-                  <img height={'100%'} width={'100%'} src={project1} />
+                  <img alt='project1' height={'100%'} width={'100%'} src={project1} />
                 </a>
               </div>
               <div className='mt-3'>
