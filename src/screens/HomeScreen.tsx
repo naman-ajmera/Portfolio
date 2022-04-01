@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import react from '../assets/react.svg';
 import node from '../assets/nodejs.svg';
 import naman from '../assets/naman.jpg';
@@ -21,12 +21,22 @@ const HomeScreen = () => {
         <Col lg={8}>
           <div className='pt-5 intro'>
             <div className='text'>
-            <p className='hi_name my-0'>Hi, I am Naman</p>
-            <p className='mt-0'>A Software Engineer</p>
-            <p className='muted'>Building Websites, Web apps, proficient in full stack development. Writing articles
-on dev.to sometimes.</p>
+              <p className='hi_name my-0'>Hi, I am Naman</p>
+              <p className='mt-0'>
+                A Software Engineer, learning DevOps and Equity Investing.
+              </p>
+              <p className='muted'>
+                Building Websites, Web apps, proficient in full stack
+                development. Experienced in Big Data Engineering.
+              </p>
             </div>
-            <img className='naman-image' height={'150px'} width={'150px'} src={naman} />
+            <img
+              alt='naman'
+              className='naman-image'
+              height={'150px'}
+              width={'150px'}
+              src={naman}
+            />
           </div>
         </Col>
         <Col lg={2} />
@@ -37,10 +47,26 @@ on dev.to sometimes.</p>
           <Row>
             <Col sm={0} md={0} lg={2} />
             <Col sm={12} md={12} lg={8}>
-              <div>
-                <a target="_blank" rel="noopener noreferrer" href='https://ecommapplication.netlify.app/'>
-                  <img height={'100%'} width={'100%'} src={project1} />
-                </a>
+              <div className='example'>
+                <img
+                  alt='project1'
+                  height={'100%'}
+                  width={'100%'}
+                  src={project1}
+                  className='project_image'
+                />
+                <div className='fadedbox'>
+                  {/* <div className='title text'> */}
+                  <a
+                    target='_blank'
+                    className='visit_button'
+                    rel='noopener noreferrer'
+                    href='https://ecommapplication.netlify.app/'
+                  >
+                    {'Visit Website >'}
+                  </a>
+                  {/* </div> */}
+                </div>
               </div>
               <div className='mt-3'>
                 <p className='text mb-0 project_heading'>Web App Development</p>
@@ -89,7 +115,7 @@ on dev.to sometimes.</p>
             <svg height={'100px'} width={'100px'}>
               <image height={'100px'} width={'100px'} href={typescript} />
             </svg>
-            <h5 className='skill-name' >TypeScript</h5>
+            <h5 className='skill-name'>TypeScript</h5>
           </div>
           <div className='skill'>
             <svg height={'100px'} width={'100px'}>
