@@ -12,6 +12,7 @@ import aws from '../assets/aws.svg';
 import azure from '../assets/azure.svg';
 import spark from '../assets/spark.svg';
 import project1 from '../assets/project1.png';
+import project2 from '../assets/project2.jpg';
 
 const HomeScreen = () => {
   return (
@@ -45,8 +46,7 @@ const HomeScreen = () => {
         <h3 className='heading mb-4'>My Projects</h3>
         <div>
           <Row>
-            <Col sm={0} md={0} lg={2} />
-            <Col sm={12} md={12} lg={8}>
+            <Col sm={12} md={12} lg={6}>
               <div className='example'>
                 <img
                   alt='project1'
@@ -69,7 +69,7 @@ const HomeScreen = () => {
                 </div>
               </div>
               <div className='mt-3'>
-                <p className='text mb-0 project_heading'>Web App Development</p>
+                <p className='text mb-0 project_heading'>Ecommerce Application</p>
               </div>
               <div>
                 <p className='text muted'>
@@ -80,7 +80,38 @@ const HomeScreen = () => {
                 </p>
               </div>
             </Col>
-            <Col sm={0} md={0} lg={2} />
+            <Col sm={12} md={12} lg={6} >
+            <div className='example'>
+                <img
+                  alt='project2'
+                  height={'100%'}
+                  width={'100%'}
+                  src={project2}
+                  className='project_image'
+                />
+                <div className='fadedbox'>
+                  {/* <div className='title text'> */}
+                  <a
+                    target='_blank'
+                    className='visit_button'
+                    rel='noopener noreferrer'
+                    href='https://ipl-historic-dashboard.netlify.app/#/'
+                  >
+                    {'Visit Website >'}
+                  </a>
+                  {/* </div> */}
+                </div>
+              </div>
+              <div className='mt-3'>
+                <p className='text mb-0 project_heading'>IPL Dashboard</p>
+              </div>
+              <div>
+                <p className='text muted'>
+                  IPL Dashboard application built using Spring Boot and ReactJs Stack
+                  that contains historic data of from 2008 with all the match points, dataset is from Kaggle.
+                </p>
+              </div>  
+            </Col>
           </Row>
         </div>
       </div>
