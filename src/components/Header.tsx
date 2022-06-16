@@ -6,8 +6,9 @@ function Header() {
     <Navbar className='nav' variant='dark' collapseOnSelect expand='lg'>
       <Container>
         <Navbar.Brand href='/'>Home</Navbar.Brand>
-        <Navbar.Collapse className='justify-content-end' id='basic-navbar-nav'>
-          {/* <Nav.Link style={{color:"hsla(0,0%,100%,.55)"}} href='/'>Home</Nav.Link> */}
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse className='justify-content-end' id='responsive-navbar-nav'>
+          <Nav>
           <Nav.Link
             className='nav-text'
             style={{ color: 'hsla(0,0%,100%,.55)' }}
@@ -23,6 +24,7 @@ function Header() {
           >
             Resume
           </Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
