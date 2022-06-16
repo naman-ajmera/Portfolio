@@ -5,10 +5,15 @@
 
 body {
   background-color: black;
+    font-family: 'Montserrat',
+    sans-serif !important;
 }
+
 
 .hi_name {
   font-size: 30px;
+    font-family: 'Montserrat',
+    sans-serif;
   /* padding-top: 3rem; */
 }
 
